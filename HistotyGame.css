@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #00796b;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li a {
+    font-family: "Oswald";
+    text-decoration: none;
+    color: #50c878;
+    font-size: 40px;
+    font-weight: 400; /* Виправлено на правильне значення */
+    margin-right: 40px;
+    background-color: #147a4b;
+    display: inline-block;
+    white-space: normal;
+    border-radius: 0;
+
+} 
+
+
+main {
+    display: flex;
+    flex-direction: column; /* Це дозволить розташувати елементи вертикально */
+    padding: 0 50px; /* Додано одиниці виміру */
+    background-color: #4c4c4c;
+}
+
+main img {
+    font-size: 48px;
+    margin-top: 20px; /* Додаємо невеликий відступ зверху для картинки */
+    margin-bottom: 40px;
+}
+
+.main_text {
+    font-family: "Oswald";
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #50c878;
+}
+
+
+
+
+.main_text_mega {
+    width: 80%; /* Встановили ширину */
+    margin: 0 auto; /* Центруємо по горизонталі */
+    font-size: 55px;
+    text-align: center; /* Центруємо текст */
+}
+
+.CyberPunk {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;       
+    margin-right: 100px;
+    margin-top: 30px;
+    font-family: "Oswald";
+    font-size: 36px;
+    color: #50c878;
+    
+}
+
+.CyberPunk img {
+    margin-right: 20px; 
+}
+
+.RDR {
+    display: flex;             /* Встановлюємо flexbox */
+    justify-content: flex-start; /* Текст і картинка зліва */
+    align-items: center;       /* Вирівнюємо по вертикалі */
+    margin-right: 100px;
+    margin-top: 100px;
+    font-family: "Oswald";
+    font-size: 36px;
+    color: #50c878;
+    
+}
+
+.RDR img {
+    margin-right: 20px;        /* Відступ між картинкою та текстом */
+}
+
+.Forest {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;       
+    margin-right: 100px;
+    margin-top: 100px;
+    font-family: "Oswald";
+    font-size: 36px;
+    color: #50c878;
+    
+}
+
+.Forest img {
+    margin-right: 20px; 
+}
+
+.Undertale {
+    display: flex;           
+    justify-content: flex-start;
+    align-items: center;      
+    margin-right: 100px;
+    margin-top: 100px;
+    font-family: "Oswald";
+    font-size: 36px;
+    color: #50c878;
+    
+}
+
+.Undertale img {
+    margin-right: 20px;   
+}
+
+.DL {
+    display: flex;           
+    justify-content: flex-start;
+    align-items: center;      
+    margin-right: 100px;
+    margin-top: 100px;
+    font-family: "Oswald";
+    font-size: 36px;
+    color: #50c878;
+    
+}
+
+.DL img {
+    margin-right: 20px;   
+}
+
+
+.Gta_5 {
+    display: flex;           
+    justify-content: flex-start;
+    align-items: center;      
+    margin-right: 100px;
+    margin-top: 100px;
+    font-family: "Oswald";
+    font-size: 36px;
+    color: #50c878;
+    
+}
+
+.Gta_5 img {
+    margin-right: 20px;   
+}
+
+.Fnaf_SB {
+    display: flex;           
+    justify-content: flex-start;
+    align-items: center;      
+    margin-right: 100px;
+    margin-top: 100px;
+    font-family: "Oswald";
+    font-size: 36px;
+    color: #50c878;
+    
+}
+
+.Fnaf_SB img {
+    margin-right: 20px;   
+}
+
+
+
+footer {
+    background-color: #00796b;
+}
+
+footer img {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+footer h2 {
+    font-family: Oswald;
+    font-size: 36px;
+    margin-bottom: 80px;
+    color: #4c4c4c;
+}
+
